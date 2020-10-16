@@ -8,7 +8,7 @@ The database should be loaded normally on the wamp server.
 
 The project contains a cloud feature to hold and access the cars images.
 
-In order to proper use this functionallity, please those these guidelines:
+In order to proper use this functionallity, please follow these guidelines:
 
     1- Download the latest curl recognized certificates here: https://curl.haxx.se/ca/cacert.pem
     2- Save the cacert.pem file in a reachable destination.
