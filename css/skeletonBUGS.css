@@ -1,0 +1,164 @@
+/*----- Page Skeleton -----*/
+html{
+  font-family: 'Ubuntu', sans-serif;  
+}
+.logo{
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #00a7ad;
+}
+body{
+  margin:0;
+  padding: 0;
+}
+/*############## Containers #############*/
+.container{
+  margin: 5%;
+}
+.mainBox{
+  display:flex;
+  margin-left: 5%;
+}
+.box1{
+  order: 1;
+}
+.box2{
+  margin-left: 5%;
+  order: 2;
+  width: 30%;
+}
+#interactions{
+  margin: 1%;
+}
+.map{
+  margin: 2%;
+  height: 15%;
+  width: 60%;
+  border: 2px solid #00a7ad;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 2%;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+       box-shadow: 0 8px 6px -6px black;
+}
+/*----- Text -----*/
+h1{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a{
+  color: #00a7ad;
+  font-weight: bold;
+  font-style: italic;
+}
+#user{
+  font-size: 16pt;
+  text-align: center;
+}
+
+/*----- Tables -----*/
+.table-Cars{
+  border-collapse: collapse;
+  margin: 2%;
+  min-width: 400px;
+  font-size: 0.9em;
+  text-align: center;
+  
+}
+
+.table-Cars thead tr {
+  background-color: #00a7ad;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  height: 40pt;
+  width: 60%;
+
+}
+.table-Cars tr, .table-Cars td{
+  padding: 12px 15px;
+}
+
+.table-Cars tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table-Cars tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  color: #00a7ad;
+
+}
+
+.table-Cars tbody tr:last-of-type {
+  border-bottom: 2px solid #00a7ad;
+}
+.customer{
+  margin-top: 5%;
+}
+#table-Stats{
+  width: 80%;
+  height: 10%;
+  border: 2px solid #00a7ad;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 2%;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+       box-shadow: 0 8px 6px -6px black;
+}
+
+/*----- IMAGES -----*/
+img {
+  width: 120pt;
+  height: 70pt;
+  border: 2px solid rgb(41, 41, 41);
+  box-shadow: 2px 2px 2px 2px rgb(44, 44, 44);
+  border-radius: 10px;
+}
+
+/*----- Buttons -----*/
+#btn{
+  color: #00a7ad;
+  border: 1px solid #00a7ad;
+  box-shadow: 1px 1px 2px rgb(129, 129, 129);
+  background-color: white;
+  padding: 0.5% 1.7%;
+  border-radius: 10px;
+  margin: 1%;
+  font-size: 15pt;
+}
+#btn2{
+  color: #00a7ad;
+  border: 1px solid #00a7ad;
+  box-shadow: 1px 1px 2px rgb(129, 129, 129);
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 10px;
+  margin-left: 3%;
+  font-size: 10pt;
+}
+#btnStyle3 {
+  color: #f3f3f3;
+  border: 1px solid #00a7ad;
+  box-shadow: 1px 1px 2px rgb(129, 129, 129);
+  background-color: #00a7ad;;
+  padding: 0.5em;
+  border-radius: 10px;
+  margin-top: 1%;
+  
+  font-size: 10pt;
+}
+#logout {
+  color: #f3f3f3;
+  border: 1px solid #00a7ad;
+  box-shadow: 1px 1px 2px rgb(129, 129, 129);
+  background-color: #00a7ad;;
+  padding: 0.5em;
+  margin-left: 30%;
+  border-radius: 10px;
+  font-size: 10pt;
+}

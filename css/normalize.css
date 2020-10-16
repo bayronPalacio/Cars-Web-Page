@@ -1,0 +1,24 @@
+/*----- Containers -----*/
+
+#map{
+  height: 20%;
+  width: 20%;
+}
+
+/*----- Tables -----*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+
+/*----- IMGs -----*/
+img {
+  border: 0;
+  width: 300%;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px 2px gray;
+}
